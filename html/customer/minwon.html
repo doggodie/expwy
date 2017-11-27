@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Expires" content="-1"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta name="title" content="옥산오창고속도로" />
+<meta name="keywords" content="옥산오창고속도로,고속도로,expressway" />
+<meta name="description" content="옥산오창고속도로" />
+<meta name="type" content="website">
+<meta name="image" content="http://expwy.silenos.kr/imgs/common/logo.png">
+<meta name="url" content="http://expwy.silenos.kr">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=1200">
+<meta property="og:type" content="website">
+<meta property="og:title" content="옥산오창고속도로">
+<meta property="og:description" content="옥산오창고속도로">
+<meta property="og:image" content="http://expwy.silenos.kr/imgs/common/logo.png">
+<meta property="og:url" content="http://expwy.silenos.kr">
+<title>옥산오창고속도로</title>
+<link rel="shortcut icon" href="/imgs/favicon.ico">
+<!--
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+-->
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="/js/common.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".header").load("/inc/header.html",function(){
+		$.fn_menu('customer','minwon');
+	});
+	$(".footer").load("/inc/footer.html");
+});
+</script>
+</head>
+<body>
+	<div class="wrap header sub_visual customer"></div>
+
+	<div class="wrap">
+		<div class="inner">
+			<ul class="lnb">
+				<li><a href="notice.html">공지사항</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="minwon.html" class="active">고객의소리</a></li>
+				<li><a href="unpaid.html">미납통행료납부안내</a></li>
+				<p class="mt30"><a href="#"><img src="/imgs/common/banner1.png" alt="1566-8282"/></a></p>
+				<p class="mt10"><a href="#"><img src="/imgs/common/banner2.png" alt="추천여행지"/></a></p>
+			</ul>
+			<div class="contents minwon">
+				<h1>고객의소리</h1>
+				<div class="nav_path">
+					<a href="/"><img src="/imgs/common/icon_home.png"/> Home</a>
+					> <a href="/html/customer">고객광장</a>
+					> <a href="/html/customer/minwon.html">고객의소리</a>
+				</div>
+				<div class="t-box mt70">
+					<img class="f-l ml5" src="/imgs/common/icon_write.png"/>
+					<p class="f-l ml20 mt5">
+						- 접수하신 민원을 확인하려면 오른쪽의 <a href="#">'내민원확인하기'</a>버튼을 클릭해 주십시오.<br/>
+						- 민원을 접수하기 전에 아래의 개인 정보 수집 및 이용에 동의해 주시기 바랍니다.
+					</p>
+					<a class="a-btn radius3 f-r mt5" href="#">내 민원확인하기 <img class="ml5" src="/imgs/common/icon_right_w.png"/><!--i class="fa fa-chevron-right"></i--></a>
+				</div>
+				<div class="t-scrollbox mt20">
+					<p class="tits">◉ 처리하는 개인정보의 항목 작성</p>
+					1.안양-성남 고속도로 사이트는 다음의 개인정보 항목을 처리하고 있습니다.
+					<br/>① 민원 사무 처리
+					<br/>- 필수 항목 : 이메일, 휴대전화번호, 이름
+					<br/>- 선택 항목 :
+                    <br/>
+                    <br/>
+					<p class="tits">◉ 개인정보의 파기</p>
+					- 안양-성남 고속도로 사이트는 원칙적으로 개인정보 처리 목적이 달성된 경우에는 지체 없이 해당 개인정보를 파기합니다.
+					<br/>- 파기의 절차, 기한 및 방법은 다음과 같습니다.
+                    <br/>
+					<br/><b>1. 파기 절차</b>
+					<br/>이용자가 입력한 정보는 목적 달성 후 별도의 DB에 옮겨져(종이의 경우 별도의 서류) 내부 방침 및 기타 관련 법령에 따라 일정기간 저장된 후 혹은 즉시 파기됩니다.
+					<br/>이때, DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 다른 목적으로 이용되지 않습니다.
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+				<p class="t-r mt20 agree"><input type="checkbox" id="agree"/><label for="agree">※ 개인정보 수집 및 이용(약관) 방침에 동의합니다.</label></p>
+				<form id="frmMinwon" name="frmMinwon">
+				<ul class="t-box frm frm mt40">
+					<li><label>&#8226; 고객명</label><input type="text" id="name" name="name" style="width:378px;"/></li>
+					<li><label>&#8226; 이메일</label><input type="text" id="email" name="email" style="width:378px;"/></li>
+					<li><label>&#8226; 민원유형</label><select id="type" name="type">
+							<option value="1">도로/배수</option>
+							<option value="2">두번째 선택항목</option>
+							<option value="3">세번째 선택항목</option>
+						</select>
+					</li>
+					<li><label>&#8226; 제목</label><input type="text" id="title" name="title" style="width:720px;"/></li>
+					<li>
+						<label>&#8226; 내용</label><div class="editor"><img src="/imgs/customer/editor.gif"/></div>
+					</li>
+				</ul>
+				<div class="a-btn-set">
+					<a href="#">등록</a>
+					<a href="#">취소</a>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrap footer"></div>
+</body>
+</html>
